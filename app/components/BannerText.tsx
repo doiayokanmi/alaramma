@@ -18,12 +18,12 @@ function BannerText() {
                 </p>
 
                 <p className='text-4xl border-l-4 border-red-600 px-4 font-extrabold text-primary' translate='no'>
-                    قال(ﷺ):"من سلك طريقًا يلتمس فيه علما سهل الله له به طريقًا إلى الجنة
+                    قال(ﷺ): من سلك طريقًا يلتمس فيه علما سهل الله له به طريقًا إلى الجنة
                 </p>
 
                 <div className="border-l-4 shadow border-primary px-2">
                     <p className='text-2xl font-bold text-white'>
-                        He (peace and blessings be upon him) said: "Whoever takes a path in search of knowledge, Allah will make easy for him a path to Paradise."
+                        He (peace and blessings be upon him) said: Whoever takes a path in search of knowledge, Allah will make easy for him a path to Paradise.
                     </p>
                 </div>
 
