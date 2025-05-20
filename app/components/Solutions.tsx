@@ -7,6 +7,10 @@ function Solutions() {
 
   return (
     <div className='bg-primary/25 p-12'>
+
+      <h2 className="font-extrabold py-2 border-b-2 border-dashed mb-8 capitalize text-primary text-3xl">
+        our solution in more details
+      </h2>
       <div className="flex gap-4">
 
         {

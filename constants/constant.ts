@@ -27,8 +27,8 @@ export const supportList: SupportItem[] = [
   {
     id: 3,
     image: "/personalize.png",
-    title: "Personalized Support",
-    para: 'Personalized one-on-one guidance and tailored lessons designed to help you succeed.',
+    title: "Flexibility",
+    para: 'Learn at your own pace, anytime, anywhere.',
   },
 ];
 
