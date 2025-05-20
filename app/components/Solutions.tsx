@@ -6,18 +6,18 @@ function Solutions() {
 
 
   return (
-    <div className='bg-primary/25 p-12'>
+    <div className='bg-primary/25 p-4 lg:p-12'>
 
-      <h2 className="font-extrabold py-2 border-b-2 border-dashed mb-8 capitalize text-primary text-3xl">
+      <h2 className="font-extrabold py-2 lg:border-b-2 border-dashed lg:mb-8 mb-2 capitalize text-primary text-xl lg:text-3xl">
         our solution in more details
       </h2>
-      <div className="flex gap-4">
+      <div className="flex lg:flex-row flex-col gap-4">
 
         {
           supportList.map((item) => (
             <div key={item.id} className="basis-1/4 bg-white border-4 rounded-br-2xl rounded-tl-2xl">
               <div className="max-h-[250px] overflow-hidden">
-                <Image className='rounded-tl-2xl' src={item.image} height={300} width={300} alt='' />
+                <Image className='rounded-tl-2xl' src={item.image} height={300} width={400} alt='' />
               </div>
               <div className="p-4">
                 <h2 className="font-bold text-center text-lg text-primary">

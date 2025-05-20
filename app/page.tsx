@@ -10,7 +10,7 @@ import Offer from "./components/Offer";
 export default function Home() {
   return (
     <AnimatePresence>
-      <main className="font-primary">
+      <main className="font-primary overflow-hidden">
       <div className="sticky top-0 z-50">
         <nav className="flex px-12 py-4 justify-between item-center bg-white">
           <div>
