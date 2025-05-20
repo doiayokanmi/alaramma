@@ -1,0 +1,8 @@
+@import "tailwindcss"; 
+
+
+@theme {
+        --color-primary: #3a0ca3;
+        --color-green: #8338ec;
+        --font-primary: "Barlow Condensed", sans-serif;
+     }
