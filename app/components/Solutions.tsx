@@ -6,7 +6,7 @@ function Solutions() {
 
 
   return (
-    <div className='bg-primary/25 p-24'>
+    <div className='bg-primary/25 p-12'>
       <div className="flex gap-4">
 
         {

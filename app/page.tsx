@@ -5,6 +5,7 @@ import { AnimatePresence } from "motion/react";
 import Solutions from "./components/Solutions";
 import Banner from "./components/Banner";
 import Story from "./components/Story";
+import Offer from "./components/Offer";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
         <Banner />
         <Solutions />
         <Story />
+        <Offer />
 
         {/* End here */}
     </main>

@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 function BannerText() {
     return (
-        <div className="absolute text-white bg-red/25 py-24 px-32 gap-12 h-full w-full">
+        <div className="absolute text-white bg-white/50 py-24 px-32 gap-12 h-full w-full">
             <motion.div 
                 initial={{ x: 2000 }} 
                 animate={{ x: 0 }}
