@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 function BannerText() {
     return (
-        <div className="absolute text-white bg-white/50 py-24 px-32 gap-12 h-full w-full">
+        <div className="absolute text-white bg-black/75 py-24 px-32 gap-12 h-full w-full">
             <motion.div 
                 initial={{ x: 2000 }} 
                 animate={{ x: 0 }}
@@ -17,7 +17,7 @@ function BannerText() {
                     ALARAMMA ONLINE <br /> QURAN ACADEMY
                 </p>
 
-                <p className='text-4xl border-l-4 border-red-600 px-4 font-extrabold text-primary' translate='no'>
+                <p className='text-4xl border-l-4 border-red-600 px-4 font-extrabold text-white' translate='no'>
                     قال(ﷺ): من سلك طريقًا يلتمس فيه علما سهل الله له به طريقًا إلى الجنة
                 </p>
 
