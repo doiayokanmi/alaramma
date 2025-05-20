@@ -13,7 +13,7 @@ export default function Home() {
       <div className="sticky top-0 z-50">
         <nav className="flex px-12 py-4 justify-between item-center bg-white">
           <div>
-            <Image src="/alarammao.PNG" alt="logo" width={100} height={100} />
+            <Image src="/alarammao.png" alt="logo" width={100} height={100} />
           </div>
 
           <div className="flex items-center gap-12 text-base text-primary font-bold">
