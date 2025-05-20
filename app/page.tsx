@@ -1,10 +1,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Videobg from "./components/Videobg";
-import BannerText from "./components/BannerText";
 import { AnimatePresence } from "motion/react";
 import Solutions from "./components/Solutions";
+import Banner from "./components/Banner";
+import Story from "./components/Story";
 
 export default function Home() {
   return (
@@ -30,14 +30,13 @@ export default function Home() {
         </nav>
       </div>
 
+       {/* Start here  */}
 
-      <section className="h-screen overflow-hidden relative gap-12 flex flex-col text-white text-shadow-amber-50 bg-black justify-center items-center">
-        <Videobg />
-
-        <BannerText />
-
-      </section>
+        <Banner />
         <Solutions />
+        <Story />
+
+        {/* End here */}
     </main>
     </AnimatePresence>
   );
