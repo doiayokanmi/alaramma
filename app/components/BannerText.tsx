@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 function BannerText() {
     return (
-        <div className="absolute text-white bg-black/75 px-2 py-24 lg:px-32 gap-12 h-full w-full">
+        <div className="absolute text-white bg-black/75 px-8 py-24 lg:px-32 gap-12 h-full w-full">
             <motion.div 
                 initial={{ x: 2000 }} 
                 animate={{ x: 0 }}
@@ -27,7 +27,7 @@ function BannerText() {
                     </p>
                 </div>
 
-                <div className="flex gap-8 p-4 font-bold justify-between lg:justify-baseline items-center">
+                <div className="flex gap-8 p-8 font-bold justify-between lg:justify-start items-center">
                     <Link target='_blank' href={'https://wa.me/+2348057896279'} className="p-4 bg-primary text-white rounded-full hover:bg-primary/90 transition">
                         Get in touch
                     </Link>

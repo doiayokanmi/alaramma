@@ -2,7 +2,7 @@ import React from 'react'
 
 function Story() {
     return (
-        <div className='p-4 lg:p-24 bg-linear-to-t from-sky-500 to-indigo-500 text-white'>
+        <div className='p-8 lg:p-24 bg-linear-to-t from-sky-500 to-indigo-500 text-white'>
            <div className='mb-4 lg:mb-8'>
              <h2 className="text-center lg:text-start font-extrabold text-xl lg:text-3xl border-b-2 border-dotted py-2 lg:inline-block">
                 Our Mission
