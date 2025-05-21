@@ -7,6 +7,7 @@ import Banner from "./components/Banner";
 import Story from "./components/Story";
 import Offer from "./components/Offer";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         <Story />
         <Offer />
         <Reviews />
+        <Footer />
 
         {/* End here */}
     </main>

@@ -59,3 +59,24 @@ export const offerList: SupportItem[] = [
     para: 'Learning Arabic unlocks a deeper connection to the Quran, strengthens faith, preserves Islamic heritage, and enhances communication and cognitive skills.',
   },
 ]
+
+export const reviewList: SupportItem[] = [
+  {
+    id: 0,
+    image: "/alphabet.webp",
+    title: "Arabic",
+    para: 'Learning Arabic unlocks a deeper connection to the Quran, strengthens faith, preserves Islamic heritage, and enhances communication and cognitive skills.',
+  },
+  {
+    id: 1,
+    image: "/alphabet.webp",
+    title: "Arabic",
+    para: 'Learning Arabic unlocks a deeper connection to the Quran, strengthens faith, preserves Islamic heritage, and enhances communication and cognitive skills.',
+  },
+  {
+    id: 2,
+    image: "/alphabet.webp",
+    title: "Arabic",
+    para: 'Learning Arabic unlocks a deeper connection to the Quran, strengthens faith, preserves Islamic heritage, and enhances communication and cognitive skills.',
+  },
+]
