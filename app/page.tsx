@@ -10,6 +10,7 @@ import Story from "./components/Story";
 import Offer from "./components/Offer";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
+import { Menu, X } from "lucide-react";
 
 export default function Home() {
   const [toggleNav, setToggleNav] = useState(false);
@@ -27,7 +28,7 @@ export default function Home() {
               onClick={() => setToggleNav((prev) => !prev)}
               className="lg:hidden"
             >
-              Toggle
+              {toggleNav ? <X /> : <Menu />}
             </button>
 
             <div

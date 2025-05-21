@@ -4,7 +4,7 @@ import React from 'react'
 
 function Reviews() {
     return (
-        <div className='lg:p-12 p-8'>
+        <div id='#testimonials' className='lg:p-12 p-8'>
             <h2 className="font-extrabold py-2 lg:mb-12 mb-8 capitalize text-primary text-xl lg:text-3xl">
                 Student Reviews
             </h2>
