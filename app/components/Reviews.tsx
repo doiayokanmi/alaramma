@@ -5,7 +5,7 @@ import React from 'react'
 function Reviews() {
     return (
         <div className='lg:p-12 p-8'>
-            <h2 className="font-extrabold py-2 lg:mb-8 mb-2 capitalize text-primary text-xl lg:text-3xl">
+            <h2 className="font-extrabold py-2 lg:mb-12 mb-8 capitalize text-primary text-xl lg:text-3xl">
                 Student Reviews
             </h2>
             <div className="flex flex-col lg:flex-row gap-12">
@@ -23,7 +23,7 @@ function Reviews() {
                                 />
                             </div>
 
-                            <h2 className="text-primary text-xl text-bold">
+                            <h2 className="text-primary text-xl font-bold">
                                 Hamdallah
                             </h2>
 

@@ -8,7 +8,7 @@ function Solutions() {
   return (
     <div className='bg-primary/25 p-8 lg:p-12'>
 
-      <h2 className="font-extrabold py-2 lg:border-b-2 border-dashed lg:mb-8 mb-2 capitalize text-primary text-xl lg:text-3xl">
+      <h2 className="font-extrabold py-2 lg:border-b-2 border-dashed lg:mb-12 mb-8 capitalize text-primary text-xl lg:text-3xl">
         our solution in more details
       </h2>
       <div className="flex lg:flex-row flex-col gap-4">

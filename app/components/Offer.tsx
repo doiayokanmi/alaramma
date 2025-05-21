@@ -5,7 +5,7 @@ import React from 'react'
 function Offer() {
     return (
         <div className="bg-gradient-to-r from-yellow-500 to-pink-500 p-8 lg:p-12">
-            <h2 className="font-extrabold py-2 border-b-2 border-dashed mb-8 capitalize text-white text-xl lg:text-3xl">
+            <h2 className="font-extrabold py-2 border-b-2 border-dashed lg:mb-12 mb-8 capitalize text-white text-xl lg:text-3xl">
                 what we offer
             </h2>
             <div className="flex flex-col lg:flex-row gap-4">
