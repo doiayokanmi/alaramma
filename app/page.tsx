@@ -24,6 +24,7 @@ export default function Home() {
               <Image src="/alarammao.png" alt="logo" width={100} height={100} />
             </div>
 
+            {/* Mobile Nav Toggle Button */}
             <button
               onClick={() => setToggleNav((prev) => !prev)}
               className="lg:hidden"
@@ -31,14 +32,25 @@ export default function Home() {
               {toggleNav ? <X /> : <Menu />}
             </button>
 
+            {/* Mobile Menu */}
             <div
-              className={`${toggleNav ? "h-[250px] p-4" : "h-0 p-0"
-                } flex transition-all duration-300 ease-in-out flex-col absolute top-[60px] bg-white w-full left-0 overflow-hidden lg:static lg:flex-row lg:items-center gap-12 text-base text-primary font-bold`}
+              className={`${toggleNav ? "max-h-[300px] p-4" : "max-h-0 p-0"} 
+  flex flex-col transition-all duration-300 ease-in-out overflow-hidden 
+  absolute top-[60px] left-0 w-full bg-white text-base text-primary font-bold 
+  lg:hidden`}
             >
-              <Link href={"#about"}>About</Link>
-              <Link href={"#services"}>Services</Link>
-              <Link href={"#testimonials"}>Testimonials</Link>
+              <Link href="#about">About</Link>
+              <Link href="#services">Services</Link>
+              <Link href="#testimonials">Testimonials</Link>
             </div>
+
+            {/* Desktop Menu */}
+            <div className="hidden lg:flex lg:flex-row lg:items-center gap-12 text-base text-primary font-bold">
+              <Link href="#about">About</Link>
+              <Link href="#services">Services</Link>
+              <Link href="#testimonials">Testimonials</Link>
+            </div>
+
           </nav>
         </div>
 
