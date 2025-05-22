@@ -33,7 +33,7 @@ export default function Home() {
 
             <div
               className={`${toggleNav ? "h-[250px] p-4" : "h-0 p-0"
-                } flex transition-all duration-300 ease-in-out flex-col absolute top-[60px] bg-white w-full left-0 overflow-hidden lg:static lg:flex lg:flex-row lg:items-center gap-12 text-base text-primary font-bold`}
+                } flex transition-all duration-300 ease-in-out flex-col absolute top-[60px] bg-white w-full left-0 overflow-hidden lg:static lg:flex-row lg:items-center gap-12 text-base text-primary font-bold`}
             >
               <Link href={"#about"}>About</Link>
               <Link href={"#services"}>Services</Link>

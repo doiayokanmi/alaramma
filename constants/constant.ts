@@ -5,6 +5,14 @@ export interface SupportItem {
   para: string;
 }
 
+export interface ReviewItem {
+  id: number;
+  image: string;
+  title: string;
+  para: string;
+  rating: number;
+}
+
 export const supportList: SupportItem[] = [
   {
     id: 0,
@@ -60,23 +68,33 @@ export const offerList: SupportItem[] = [
   },
 ]
 
-export const reviewList: SupportItem[] = [
+export const reviewList: ReviewItem[] = [
   {
     id: 0,
-    image: "/alphabet.webp",
-    title: "Arabic",
+    image: "/female.webp",
+    title: "Hamdallah Moshood",
     para: 'Learning Arabic unlocks a deeper connection to the Quran, strengthens faith, preserves Islamic heritage, and enhances communication and cognitive skills.',
+    rating: 5,
   },
   {
     id: 1,
-    image: "/alphabet.webp",
-    title: "Arabic",
+    image: "/male.jpg",
+    title: "Ibrahim Dhikirullahi",
     para: 'Learning Arabic unlocks a deeper connection to the Quran, strengthens faith, preserves Islamic heritage, and enhances communication and cognitive skills.',
+    rating: 4.5,
   },
   {
     id: 2,
-    image: "/alphabet.webp",
-    title: "Arabic",
+    image: "/female2.webp",
+    title: "Mazeedah Abdulrahman",
     para: 'Learning Arabic unlocks a deeper connection to the Quran, strengthens faith, preserves Islamic heritage, and enhances communication and cognitive skills.',
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    image: "/male2.png",
+    title: "Nurudeen Ishiaq",
+    para: 'Learning Arabic unlocks a deeper connection to the Quran, strengthens faith, preserves Islamic heritage, and enhances communication and cognitive skills.',
+    rating: 5,
   },
 ]
