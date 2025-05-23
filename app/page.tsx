@@ -35,7 +35,7 @@ export default function Home() {
             {/* Mobile Menu */}
             <div
               className={`${toggleNav ? "max-h-[300px] p-4" : "max-h-0 p-0"} 
-  flex flex-col transition-all duration-300 ease-in-out overflow-hidden 
+  flex flex-col transition-all gap-8 duration-300 ease-in-out overflow-hidden 
   absolute top-[60px] left-0 w-full bg-white text-base text-primary font-bold 
   lg:hidden`}
             >
